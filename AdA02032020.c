@@ -12,10 +12,10 @@ int grafo[5][5]={
 int i;
 int j;
 
-    for(i=0; i<5;i++)
+    for(i=0; i<sizeof(letra);i++)
     {
         int qtde = 0;
-        for(j=0; j<5;j++)
+        for(j=0; j<sizeof(letra);j++)
         {
             qtde += grafo[i][j];
         }
